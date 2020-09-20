@@ -1,0 +1,34 @@
+.contanier {
+    background: rgb(0, 0, 0);
+    width: 98vw;
+    height: 40vw;
+    text-align: center;
+}
+.menu {
+    width: 20%;
+    height: 40%;
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+a {
+    color: rgb(23, 94, 23);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    font-size: 20pt;
+    align-items: center;
+    border: 2px solid rgb(23, 94, 23);
+    text-decoration: none;
+    /*border-style: solid;*/
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(23, 94, 23);
+    border: 2px solid rgb(8, 49, 8);
+}
+.titulo {
+    font-size: 20pt;
+    color: rgb(23, 94, 23);
+}
